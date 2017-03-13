@@ -17,9 +17,8 @@
     // 'scope' field specifies space-delimited list of access scopes.
     gapi.client.init({
         'apiKey': 'AIzaSyBcUlL88tf6jpmfp_3ihucerks-Hh-X6E0',
-        'discoveryDocs': [discoveryUrl],
         'clientId': '387803250352-i11crdjqn5g6o0cko45cf6lpiipnhgvd.apps.googleusercontent.com',
-        'scope': SCOPE
+        'scope': 'https://www.googleapis.com/auth/plus.login'
     }).then(function () {
       GoogleAuth = gapi.auth2.getAuthInstance();
 
