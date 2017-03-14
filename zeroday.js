@@ -113,7 +113,7 @@ function writeData(response) {
       if (arr[j].Domain.includes("dropbox")) {
         console.log("Conditional is true " + arr[j].Domain)
         document.getElementById("breachLegalRecs").innerHTML = "<strong>Legal Recommendations for Dropbox: </strong> <p>No lawsuit has been filed yet \
-        against Dropbox for this breach. If you would like to pursue legal recourse, we have three attorney recommendations for you. (Arrow icon) </p>\
+        against Dropbox for this breach. If you would like to pursue legal recourse, we have three attorney recommendations for you.</p>\
         <p>Here is a simulation of what we would have done if there had been a pending settlement for this Dropbox breach.</p>\
         <p><a href=\"settlement-simulation/info-input.html\">Settlement Simulation</a></p>"
         //var btn = document.createElement("BUTTON");
@@ -126,8 +126,8 @@ function writeData(response) {
       if (arr[j].Domain.includes("linkedin")) {
         console.log("Conditional is true " + arr[j].Domain)
         document.getElementById("breachLegalRecs").innerHTML += "<strong>Legal Recommendations for LinkedIn: </strong> <p>No lawsuit has been filed yet \
-        against Dropbox for this breach. If you would like to pursue legal recourse, we have three attorney recommendations for you. (Arrow icon) </p>\
-        <p>Here is a simulation of what we would have done if there had been a pending settlement for this LinkedIn breach. (Arrow icon)</p>\
+        against Dropbox for this breach. If you would like to pursue legal recourse, we have three attorney recommendations for you.</p>\
+        <p>Here is a simulation of what we would have done if there had been a pending settlement for this LinkedIn breach.</p>\
         <p><a href=\"settlement-simulation/info-input.html\">Settlement Simulation</a></p>"
       } else {
         console.log("Conditional is false " + arr[j].Domain);

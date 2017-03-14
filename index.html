@@ -9,17 +9,11 @@
 </head>
 <body>
 <h1>Zeroday</h1>
-<h3 class="breachIntro">Check if your account has been compromised in a data breach</h3>
+<h4 class="breachIntro">Check if your account has been compromised in a data breach</h4>
 <form id="checkBreaches" name="checkBreaches">
 <input id="checkEmail" type="text" name="Email" value="" placeholder="Email">
 <input type="submit" name="submit" value="Check" onclick="loadDoc();return false;">
-
-<p><input type="submit" name="test" value="Test" onclick="PageSwitch();return false;"></p>
-
-<!--There are two different ways we found of page switching. The one above this comment, and the one below it. I've kept both
-of them here for now, until we figure out which is better.-->
-
-<p><a href="login.html">Sign In</a> / 
+<p><a href="login.html">Sign In</a> /
 <a href="signup.html">Sign Up</a></p>
 <div id="breachInfo"></div>
 <div id="breachLegalRecs"></div>
