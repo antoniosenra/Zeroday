@@ -29,3 +29,13 @@ input[type=submit] {
   border: 1px solid #ccc;
   box-sizing: border-box;
 }
+
+.image1 {
+  width:150px;
+  height:150px;
+}
+
+.image2 {
+  width:120px;
+  height:160px;
+}
