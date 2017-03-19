@@ -16,6 +16,12 @@ a.ZerodayLink {
   padding-top: 5cm;
 }
 
+a.Back {
+  text-align: center;
+  font-size: 110%;
+  padding-top: 5cm;
+}
+
 inputs {
   padding: 150px;
 }
