@@ -39,3 +39,10 @@ input[type=submit] {
   width:120px;
   height:160px;
 }
+
+a.ZerodayLink {
+  text-align: center;
+  color: inherit;
+  text-decoration: inherit;
+  font-size: 200%;
+  padding-top: 5cm;
