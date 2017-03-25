@@ -9,6 +9,7 @@ a.ZerodayLink {
   text-decoration: inherit;
   font-size: 200%;
   padding-top: 2cm;
+  font-weight: bold;
 }
 
 form {
